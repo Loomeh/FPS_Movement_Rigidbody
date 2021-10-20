@@ -8,10 +8,10 @@ This is Karlson's movement system ported to the new Input System.
 3. Easily add new binds or change the current ones.
 
 ### Default controls
-Left Stick/WASD - Move
-Right Stick/Mouse - Look
-Left Bumper/Space - Jump
-Left Trigger/Left Control - Crouch
+= Left Stick/WASD - Move
+- Right Stick/Mouse - Look
+- Left Bumper/Space - Jump
+- Left Trigger/Left Control - Crouch
 
 ### Installation and Setup
 1. Click Code --> Download Zip.
