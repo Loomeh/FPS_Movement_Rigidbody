@@ -2,8 +2,12 @@
 
 This is Karlson's movement system ported to the new Input System.
 
-### Installation and Setup
+### Benefits
+1. Future-proof the movement system incase the current input system becomes deprecated.
+2. Full controller support.
+3. Easily add new binds or change the current ones.
 
+### Installation and Setup
 1. Click Code --> Download Zip.
 2. Extract the files somewhere on your computer.
 3. Drag them into your Unity window and they should appear.
