@@ -1,5 +1,4 @@
 // Some stupid rigidbody based movement by Dani
-// Ported to the new Input System by Loomeh
 
 using System;
 using UnityEngine;
@@ -101,7 +100,7 @@ public class PlayerMovement : MonoBehaviour {
         x = _movement.Move.Horizontal.ReadValue<Vector2>().x;
         y = _movement.Move.Vertical.ReadValue<Vector2>().y;
         jumping = _movement.Actions.Jump.ReadValue<float>() > 0;
-        crouching = _movement.Actions.Crouch.triggered;
+        crouching = _movement.Actions.Crouch.ReadValue<float>() > 0;
     }
 
     private void StartCrouch() {
